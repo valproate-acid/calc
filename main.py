@@ -1,4 +1,10 @@
 def main():
+    a = 0
+    b = 0
+    c = ""
+    input(a)
+    input(c)
+    input(b)
     print("Hello from calc!")
 
 def mul(a, b):
