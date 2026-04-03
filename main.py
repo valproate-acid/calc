@@ -1,11 +1,20 @@
 def main():
-    a = 0
-    b = 0
-    c = ""
-    input(a)
-    input(c)
-    input(b)
-    print("Hello from calc!")
+    a =  int(input())
+    c = input()
+    b = int(input())
+
+    result =0
+
+    
+    if(c=="+"):
+        result =add(a,b)
+    elif(c=="-"):
+        result = minus(a,b)
+    elif(c=="*"):
+        result = mul(a,b)
+    elif(c=="/"):
+        result = div(a,b)
+    print(f"{a} {c} {b} = {result}")
 
 def mul(a, b):
     return a*b
